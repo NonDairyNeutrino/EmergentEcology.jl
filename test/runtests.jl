@@ -2,5 +2,8 @@ using EmergentEcology
 using Test
 
 @testset "EmergentEcology.jl" begin
-    # Write your tests here.
+    include("test_tile.jl")
+    # include("test_wfc.jl")
+    # include("test_ca.jl")
+    # include("test_visualization.jl")
 end
