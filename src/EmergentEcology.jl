@@ -11,7 +11,7 @@ export visualize_comparison, add_tile_type!, add_evolution_rule!
 
 # Include component files
 include("tile.jl")
-# include("wfc.jl")
+include("wfc.jl")
 # include("ca.jl")
 # include("visualization.jl")
 
